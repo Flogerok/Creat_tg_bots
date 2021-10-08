@@ -1,12 +1,12 @@
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import telebot
-import configTelegramBot
+import configTelegramBot # в этом файле находится только токен
 import sqlite3 as sql
 
 roat = ''
 exex = ''
 
-bot = telebot.TeleBot(configTelegramBot.token)
+bot = telebot.TeleBot(configTelegramBot.token) # место того что в скобках поместите в ""(кавычки) свой номер токена (вашего телеграм бота)
 
 
 def start_marcup():
